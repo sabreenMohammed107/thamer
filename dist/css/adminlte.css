@@ -28506,4 +28506,50 @@ a.text-muted:hover {
 .txt-rtl{
 	text-align:right;
 }
+/*custom treeview*/
+.wrapper .heading{
+	font-size:18px;
+	padding:15px;
+}
+.file-browser {
+												 background: #364346;
+												 color: white;
+												 padding: 20px 10px;
+											}
+											 .file {
+												 color: #eee;
+												 display: block;
+												 list-style: none;
+											}
+											 .folder {
+												 list-style: none;
+												 cursor: pointer;
+												 margin: 4px 0;
+											}
+											 .folder > ul {
+												 display: none;
+											}
+											 .folder:before {
+												 padding: 5px;
+												 height: 25px;
+												 width: 25px;
+												 text-align: center;
+												 line-height: 10px;
+												 background: #5f6f72;
+												 border-radius: 1px;
+												 display: inline-block;
+												 content: "+";
+											}
+											 .folder.folder-open > ul {
+												 display: block;
+												 padding-left: 15px;
+												 margin-left: 9px;
+												 border-left: 2px solid #5f6f72;
+											}
+											 .folder.folder-open:before {
+												 content: "-";
+											}
+.h-150{
+	max-height:150px;
+}
 
